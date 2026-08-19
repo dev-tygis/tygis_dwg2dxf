@@ -67,3 +67,14 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ── tygis_dwg2dxf ────────────────────────────────────────────
+# libredwg 원본. build.ps1 이 **고정한 커밋으로** 받아온다.
+# 여기 담지 않는다 — 담으면 원본을 우리가 포크한 것처럼 보이고,
+# 어느 커밋인지는 build.ps1 의 $LIBREDWG_COMMIT 이 정본이다.
+libredwg/
+
+# 빌드 산출물
+build/
+out/
+*.exe
